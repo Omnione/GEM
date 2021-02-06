@@ -42,6 +42,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.fill_ah = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -52,8 +54,8 @@
             // ip_textbox
             // 
             this.ip_textbox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ip_textbox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ip_textbox.Location = new System.Drawing.Point(85, 28);
+            this.ip_textbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ip_textbox.Location = new System.Drawing.Point(92, 28);
             this.ip_textbox.Name = "ip_textbox";
             this.ip_textbox.Size = new System.Drawing.Size(214, 20);
             this.ip_textbox.TabIndex = 1;
@@ -62,8 +64,8 @@
             // user_textbox
             // 
             this.user_textbox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.user_textbox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_textbox.Location = new System.Drawing.Point(85, 99);
+            this.user_textbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_textbox.Location = new System.Drawing.Point(92, 99);
             this.user_textbox.Name = "user_textbox";
             this.user_textbox.Size = new System.Drawing.Size(214, 20);
             this.user_textbox.TabIndex = 2;
@@ -72,8 +74,8 @@
             // port_textbox
             // 
             this.port_textbox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.port_textbox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.port_textbox.Location = new System.Drawing.Point(85, 64);
+            this.port_textbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.port_textbox.Location = new System.Drawing.Point(92, 64);
             this.port_textbox.Name = "port_textbox";
             this.port_textbox.Size = new System.Drawing.Size(214, 20);
             this.port_textbox.TabIndex = 3;
@@ -82,8 +84,8 @@
             // database_textbox
             // 
             this.database_textbox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.database_textbox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.database_textbox.Location = new System.Drawing.Point(85, 169);
+            this.database_textbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.database_textbox.Location = new System.Drawing.Point(92, 169);
             this.database_textbox.Name = "database_textbox";
             this.database_textbox.Size = new System.Drawing.Size(214, 20);
             this.database_textbox.TabIndex = 4;
@@ -92,8 +94,8 @@
             // password_texbox
             // 
             this.password_texbox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.password_texbox.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password_texbox.Location = new System.Drawing.Point(85, 134);
+            this.password_texbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_texbox.Location = new System.Drawing.Point(92, 134);
             this.password_texbox.Name = "password_texbox";
             this.password_texbox.Size = new System.Drawing.Size(214, 20);
             this.password_texbox.TabIndex = 5;
@@ -106,7 +108,7 @@
             this.Connect_Button.FlatAppearance.BorderSize = 0;
             this.Connect_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Connect_Button.ForeColor = System.Drawing.Color.Transparent;
-            this.Connect_Button.Location = new System.Drawing.Point(85, 205);
+            this.Connect_Button.Location = new System.Drawing.Point(92, 205);
             this.Connect_Button.Name = "Connect_Button";
             this.Connect_Button.Size = new System.Drawing.Size(96, 32);
             this.Connect_Button.TabIndex = 11;
@@ -119,9 +121,9 @@
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(321, 28);
+            this.richTextBox1.Location = new System.Drawing.Point(392, 31);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(266, 161);
+            this.richTextBox1.Size = new System.Drawing.Size(260, 155);
             this.richTextBox1.TabIndex = 12;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -129,10 +131,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::GEM_DB_FILLER.Properties.Resources.serverIP;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 28);
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(91, 20);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 20);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
@@ -140,10 +142,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::GEM_DB_FILLER.Properties.Resources.user;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(11, 99);
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 99);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 20);
+            this.pictureBox2.Size = new System.Drawing.Size(112, 20);
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
@@ -151,10 +153,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::GEM_DB_FILLER.Properties.Resources.port;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(11, 64);
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 64);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(91, 20);
+            this.pictureBox3.Size = new System.Drawing.Size(112, 20);
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
@@ -162,10 +164,10 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::GEM_DB_FILLER.Properties.Resources.database;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(11, 169);
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(12, 169);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(91, 20);
+            this.pictureBox4.Size = new System.Drawing.Size(112, 20);
             this.pictureBox4.TabIndex = 16;
             this.pictureBox4.TabStop = false;
             // 
@@ -173,10 +175,10 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::GEM_DB_FILLER.Properties.Resources.password;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Location = new System.Drawing.Point(11, 134);
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 134);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(91, 20);
+            this.pictureBox5.Size = new System.Drawing.Size(112, 20);
             this.pictureBox5.TabIndex = 17;
             this.pictureBox5.TabStop = false;
             // 
@@ -187,12 +189,31 @@
             this.fill_ah.FlatAppearance.BorderSize = 0;
             this.fill_ah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fill_ah.ForeColor = System.Drawing.Color.Transparent;
-            this.fill_ah.Location = new System.Drawing.Point(396, 205);
+            this.fill_ah.Location = new System.Drawing.Point(464, 205);
             this.fill_ah.Name = "fill_ah";
             this.fill_ah.Size = new System.Drawing.Size(96, 32);
             this.fill_ah.TabIndex = 18;
             this.fill_ah.UseVisualStyleBackColor = false;
             this.fill_ah.Click += new System.EventHandler(this.fill_ah_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(389, 28);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(266, 161);
+            this.panel1.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(537, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "GEM  v0.2a by MrSent";
             // 
             // GemMain
             // 
@@ -200,8 +221,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::GEM_DB_FILLER.Properties.Resources._600px_Auction_House;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(599, 263);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(679, 263);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.fill_ah);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Connect_Button);
@@ -215,6 +237,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GemMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -243,6 +266,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button fill_ah;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

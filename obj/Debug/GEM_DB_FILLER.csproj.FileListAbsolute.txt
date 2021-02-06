@@ -35,3 +35,9 @@ F:\GEM\bin\Debug\K4os.Compression.LZ4.xml
 F:\GEM\bin\Debug\K4os.Compression.LZ4.Streams.xml
 F:\GEM\bin\Debug\Renci.SshNet.xml
 F:\GEM\obj\Debug\GEM_DB_FILLER.csprojAssemblyReference.cache
+F:\GEM_DEV\obj\Debug\GEM_DB_FILLER.csprojAssemblyReference.cache
+F:\GEM_DEV\obj\Debug\GEM_DB_FILLER.exe.config
+F:\GEM_DEV\obj\Debug\GEM_DB_FILLER.GemMain.resources
+F:\GEM_DEV\obj\Debug\GEM_DB_FILLER.Properties.Resources.resources
+F:\GEM_DEV\obj\Debug\GEM_DB_FILLER.csproj.GenerateResource.cache
+F:\GEM_DEV\obj\Debug\GEM_DB_FILLER.csproj.CoreCompileInputs.cache

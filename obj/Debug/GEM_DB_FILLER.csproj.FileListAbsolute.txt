@@ -24,3 +24,14 @@ F:\GEM\obj\Debug\GEM_DB_FILLER.csproj.CoreCompileInputs.cache
 F:\GEM\obj\Debug\GEM_DB_FILLER.csproj.CopyComplete
 F:\GEM\obj\Debug\GEM_DB_FILLER.exe
 F:\GEM\obj\Debug\GEM_DB_FILLER.pdb
+F:\GEM\bin\Debug\BouncyCastle.Crypto.dll
+F:\GEM\bin\Debug\Google.Protobuf.dll
+F:\GEM\bin\Debug\K4os.Compression.LZ4.dll
+F:\GEM\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\GEM\bin\Debug\Renci.SshNet.dll
+F:\GEM\bin\Debug\Google.Protobuf.pdb
+F:\GEM\bin\Debug\Google.Protobuf.xml
+F:\GEM\bin\Debug\K4os.Compression.LZ4.xml
+F:\GEM\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\GEM\bin\Debug\Renci.SshNet.xml
+F:\GEM\obj\Debug\GEM_DB_FILLER.csprojAssemblyReference.cache
